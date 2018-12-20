@@ -1,0 +1,196 @@
+The Islamic Republic of Afghanistan	AF
+the Republic of Albania	AL
+the People's Democratic Republic of Algeria	DZ
+the Principality of Andorra	AD
+the Republic of Angola	AO
+Antigua and Barbuda	AG
+the Argentine Republic	AR
+the Republic of Armenia	AM
+Australia	AU
+the Republic of Austria	AT
+the Republic of Azerbaijan	AZ
+the Commonwealth of the Bahamas	BS
+the Kingdom of Bahrain	BH
+the People's Republic of Bangladesh	BD
+Barbados	BB
+the Republic of Belarus	BY
+the Kingdom of Belgium	BE
+Belize	BZ
+the Republic of Benin	BJ
+the Kingdom of Bhutan	BT
+the Plurinational State of Bolivia	BO
+Bosnia and Herzegovina	BA
+the Republic of Botswana	BW
+the Federative Republic of Brazil	BR
+Brunei Darussalam	BN
+the Republic of Bulgaria	BG
+Burkina Faso	BF
+the Republic of Burundi	BI
+Republic of Cabo Verde	CV
+the Kingdom of Cambodia	KH
+the Republic of Cameroon	CM
+Canada	CA
+the Central African Republic	CF
+the Republic of Chad	TD
+the Republic of Chile	CL
+the People's Republic of China	CN
+the Republic of Colombia	CO
+the Union of the Comoros	KM
+the Republic of the Congo	CG
+the Cook Islands	CK
+the Republic of Costa Rica	CR
+the Republic of Croatia	HR
+the Republic of Cuba	CU
+the Republic of Cyprus	CY
+the Czech Republic	CZ
+the Republic of Côte d'Ivoire	CI
+the Democratic People's Republic of Korea	KP
+the Democratic Republic of the Congo	CD
+the Kingdom of Denmark	DK
+the Republic of Djibouti	DJ
+the Commonwealth of Dominica	DM
+the Dominican Republic	DO
+the Republic of Ecuador	EC
+the Arab Republic of Egypt	EG
+the Republic of El Salvador	SV
+the Republic of Equatorial Guinea	GQ
+the State of Eritrea	ER
+the Republic of Estonia	EE
+the Kingdom of Eswatini	SZ
+the Federal Democratic Republic of Ethiopia	ET
+Faroe Islands	FO
+the Republic of Fiji	FJ
+the Republic of Finland	FI
+the French Republic	FR
+the Gabonese Republic	GA
+the Republic of the Gambia	GM
+Georgia	GE
+the Federal Republic of Germany	DE
+the Republic of Ghana	GH
+the Hellenic Republic	GR
+Grenada	GD
+the Republic of Guatemala	GT
+the Republic of Guinea	GN
+the Republic of Guinea-Bissau	GW
+the Republic of Guyana	GY
+the Republic of Haiti	HT
+the Republic of Honduras	HN
+Hungary	HU
+the Republic of Iceland	IS
+the Republic of India	IN
+the Republic of Indonesia	ID
+the Islamic Republic of Iran	IR
+the Republic of Iraq	IQ
+Ireland	IE
+the State of Israel	IL
+the Republic of Italy	IT
+Jamaica	JM
+Japan	JP
+the Hashemite Kingdom of Jordan	JO
+the Republic of Kazakhstan	KZ
+the Republic of Kenya	KE
+the Republic of Kiribati	KI
+the State of Kuwait	KW
+the Kyrgyz Republic	KG
+the Lao People's Democratic Republic	LA
+the Republic of Latvia	LV
+the Lebanese Republic	LB
+the Kingdom of Lesotho	LS
+the Republic of Liberia	LR
+State of Libya	LY
+the Republic of Lithuania	LT
+the Grand Duchy of Luxembourg	LU
+the Republic of Madagascar	MG
+the Republic of Malawi	MW
+Malaysia	MY
+the Republic of Maldives	MV
+the Republic of Mali	ML
+the Republic of Malta	MT
+the Republic of the Marshall Islands	MH
+the Islamic Republic of Mauritania	MR
+the Republic of Mauritius	MU
+the United Mexican States	MX
+the Federated States of Micronesia	FM
+the Principality of Monaco	MC
+Mongolia	MN
+Montenegro	ME
+the Kingdom of Morocco	MA
+the Republic of Mozambique	MZ
+the Republic of the Union of Myanmar	MM
+the Republic of Namibia	NA
+the Republic of Nauru	NR
+the Federal Democratic Republic of Nepal	NP
+the Kingdom of the Netherlands	NL
+New Zealand	NZ
+the Republic of Nicaragua	NI
+the Republic of the Niger	NE
+the Federal Republic of Nigeria	NG
+Niue	NU
+the Kingdom of Norway	NO
+the Sultanate of Oman	OM
+the Islamic Republic of Pakistan	PK
+the Republic of Palau	PW
+the Republic of Panama	PA
+Independent State of Papua New Guinea	PG
+the Republic of Paraguay	PY
+the Republic of Peru	PE
+the Republic of the Philippines	PH
+the Republic of Poland	PL
+the Portuguese Republic	PT
+the State of Qatar	QA
+the Republic of Korea	KR
+the Republic of Moldova	MD
+Romania	RO
+the Russian Federation	RU
+the Republic of Rwanda	RW
+Saint Kitts and Nevis	KN
+Saint Lucia	LC
+Saint Vincent and the Grenadines	VC
+the Independent State of Samoa	WS
+the Republic of San Marino	SM
+the Democratic Republic of Sao Tome and Principe	ST
+the Kingdom of Saudi Arabia	SA
+the Republic of Senegal	SN
+the Republic of Serbia	RS
+the Republic of Seychelles	SC
+the Republic of Sierra Leone	SL
+the Republic of Singapore	SG
+the Slovak Republic	SK
+the Republic of Slovenia	SI
+Solomon Islands	SB
+the Federal Republic of Somalia	SO
+the Republic of South Africa	ZA
+the Republic of South Sudan	SS
+the Kingdom of Spain	ES
+the Democratic Socialist Republic of Sri Lanka	LK
+the Republic of the Sudan	SD
+the Republic of Suriname	SR
+the Kingdom of Sweden	SE
+the Swiss Confederation	CH
+the Syrian Arab Republic	SY
+the Republic of Tajikistan	TJ
+the Kingdom of Thailand	TH
+The former Yugoslav Republic of Macedonia	MK
+the Democratic Republic of Timor-Leste	TL
+the Togolese Republic	TG
+Tokelau	TK
+the Kingdom of Tonga	TO
+the Republic of Trinidad and Tobago	TT
+the Republic of Tunisia	TN
+the Republic of Turkey	TR
+Turkmenistan	TM
+Tuvalu	TV
+the Republic of Uganda	UG
+Ukraine	UA
+the United Arab Emirates	AE
+the United Kingdom of Great Britain and Northern Ireland	GB
+the United Republic of Tanzania	TZ
+the United States of America	US
+the Eastern Republic of Uruguay	UY
+the Republic of Uzbekistan	UZ
+the Republic of Vanuatu	VU
+the Bolivarian Republic of Venezuela	VE
+the Socialist Republic of Viet Nam	VN
+the Republic of Yemen	YE
+the Republic of Zambia	ZM
+the Republic of Zimbabwe	ZW
