@@ -13,7 +13,6 @@ import org.eclipse.rdf4j.repository.RepositoryConnection;
 
 import config.EntityConfig;
 import config.FileConfig;
-import entities.Location;
 import entities.Organization;
 import read.file.FileReader;
 import store.data.StoreData;
@@ -38,7 +37,7 @@ public class OrganizationCreator {
 	Model model;
 
 	/**
-	 * Constructor: khi tạo mới một đối tượng LocationCreator thì cũng đọc file tương
+	 * Constructor: khi tạo mới một đối tượng OrganizationCreator thì cũng đọc file tương
 	 * ứng với đối tượng Event và cập nhật vào các mảng tương ứng.
 	 */
 	public OrganizationCreator() {
@@ -89,14 +88,14 @@ public class OrganizationCreator {
 	public ArrayList<IRI> createEvent(int numberOrganization, RepositoryConnection conn) {
 		ValueFactory vf = conn.getValueFactory();
 		StoreData storeData = new StoreData();
-		ArrayList<IRI> listnumberOrganizationIri = new ArrayList<IRI>();
+		ArrayList<IRI> listOrganizationIri = new ArrayList<IRI>();
 		int count = 1;
 
 		for (int i = 1; i <= numberOrganization; i++) {
 			Organization organization = randomOrganzation(i);
 
 			IRI locationIri = storeData.addToModel(organization, vf, model);
-			listnumberOrganizationIri.add(locationIri);
+			listOrganizationIri.add(locationIri);
 
 			if (i % 10000 == 0) {
 				try {
@@ -121,6 +120,6 @@ public class OrganizationCreator {
 
 		System.out.println("Đã thêm vào cơ sở dữ liệu");
 
-		return listLocationIri;
+		return listOrganizationIri;
 	}
 }

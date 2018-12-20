@@ -32,7 +32,7 @@ public class TestDataCreator {
 			System.out.println(iri);
 		}
 		
-		System.out.println("Thời gian: " + (end - start) / 60000 + " p");
+		System.out.println("Thời gian: " + (end - start) + " ms");
 	}
 
 }

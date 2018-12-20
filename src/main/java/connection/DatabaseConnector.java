@@ -16,7 +16,7 @@ public class DatabaseConnector extends ConectionConfig {
 	 */
 	public static RepositoryConnection getConnection() {
 		Repository repo = new HTTPRepository(ConectionConfig.GRAPHDB_SERVER, ConectionConfig.REPOSITORY_ID);
-		System.out.println("1 lần connect");
+		
 		try {
 			repo.initialize();
 			RepositoryConnection conn = repo.getConnection();
