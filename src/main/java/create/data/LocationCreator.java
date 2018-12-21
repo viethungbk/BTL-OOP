@@ -77,13 +77,13 @@ public class LocationCreator {
 	}
 
 	/**
-	 * Tạo ra một số lượng Location và thêm vào GraphDB.
+	 * Tạo ra một số lượng Location và thêm vào Database.
 	 * 
 	 * @param numberLocation
 	 *            Số lượng Location muốn tạo.
 	 * @param conn:
-	 *            kết nối đến repository của GraphDB.
-	 * @return : list các IRI Id của Location đã thêm vào GraphDB
+	 *            kết nối đến repository của Database.
+	 * @return : list các IRI Id của Location đã thêm vào Database.
 	 */
 	public ArrayList<IRI> createEvent(int numberLocation, RepositoryConnection conn) {
 		ValueFactory vf = conn.getValueFactory();

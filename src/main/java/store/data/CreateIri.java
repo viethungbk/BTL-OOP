@@ -52,138 +52,138 @@ public class CreateIri {
 	
 
 	public IRI getCountryNameIri(ValueFactory vf) {
-		countryNameIri = vf.createIRI(EntityConfig.COUNTRY, EntityConfig.LABEL);
+		countryNameIri = vf.createIRI(EntityConfig.COUNTRY_NAMESPACE, EntityConfig.LABEL);
 		return countryNameIri;
 	}
 
 	public IRI getCountryDescriptionIri(ValueFactory vf) {
-		countryDescriptionIri = vf.createIRI(EntityConfig.COUNTRY, EntityConfig.DESCRIPTION);
+		countryDescriptionIri = vf.createIRI(EntityConfig.COUNTRY_NAMESPACE, EntityConfig.DESCRIPTION);
 		return countryDescriptionIri;
 	}
 
 	public IRI getCountryDateIri(ValueFactory vf) {
-		countryDateIri = vf.createIRI(EntityConfig.COUNTRY, EntityConfig.DATE);
+		countryDateIri = vf.createIRI(EntityConfig.COUNTRY_NAMESPACE, EntityConfig.DATE);
 		return countryDateIri;
 	}
 
 	public IRI getCountryLinkIri(ValueFactory vf) {
-		countryLinkIri = vf.createIRI(EntityConfig.COUNTRY, EntityConfig.LINK);
+		countryLinkIri = vf.createIRI(EntityConfig.COUNTRY_NAMESPACE, EntityConfig.LINK);
 		return countryLinkIri;
 	}
 	
 	public IRI getEventNameIri(ValueFactory vf) {
-		eventNameIri = vf.createIRI(EntityConfig.EVENT, EntityConfig.LABEL);
+		eventNameIri = vf.createIRI(EntityConfig.EVENT_NAMESPACE, EntityConfig.LABEL);
 		return eventNameIri;
 	}
 
 	public IRI getEventDescriptionIri(ValueFactory vf) {
-		eventDescriptionIri = vf.createIRI(EntityConfig.EVENT, EntityConfig.DESCRIPTION);
+		eventDescriptionIri = vf.createIRI(EntityConfig.EVENT_NAMESPACE, EntityConfig.DESCRIPTION);
 		return eventDescriptionIri;
 	}
 
 	public IRI getEventDateIri(ValueFactory vf) {
-		eventDateIri = vf.createIRI(EntityConfig.EVENT, EntityConfig.DATE);
+		eventDateIri = vf.createIRI(EntityConfig.EVENT_NAMESPACE, EntityConfig.DATE);
 		return eventDateIri;
 	}
 
 	public IRI getEventLinkIri(ValueFactory vf) {
-		eventLinkIri = vf.createIRI(EntityConfig.EVENT, EntityConfig.LINK);
+		eventLinkIri = vf.createIRI(EntityConfig.EVENT_NAMESPACE, EntityConfig.LINK);
 		return eventLinkIri;
 	}
 
 	public IRI getLocationNameIri(ValueFactory vf) {
-		locationNameIri = vf.createIRI(EntityConfig.COUNTRY, EntityConfig.LABEL);
+		locationNameIri = vf.createIRI(EntityConfig.COUNTRY_NAMESPACE, EntityConfig.LABEL);
 		return locationNameIri;
 	}
 
 	public IRI getLocationDescriptionIri(ValueFactory vf) {
-		locationDescriptionIri = vf.createIRI(EntityConfig.COUNTRY, EntityConfig.DESCRIPTION);
+		locationDescriptionIri = vf.createIRI(EntityConfig.COUNTRY_NAMESPACE, EntityConfig.DESCRIPTION);
 		return locationDescriptionIri;
 	}
 
 	public IRI getLocationDateIri(ValueFactory vf) {
-		locationDateIri = vf.createIRI(EntityConfig.COUNTRY, EntityConfig.DATE);
+		locationDateIri = vf.createIRI(EntityConfig.COUNTRY_NAMESPACE, EntityConfig.DATE);
 		return locationDateIri;
 	}
 
 	public IRI getLocationLinkIri(ValueFactory vf) {
-		locationLinkIri = vf.createIRI(EntityConfig.COUNTRY, EntityConfig.LINK);
+		locationLinkIri = vf.createIRI(EntityConfig.COUNTRY_NAMESPACE, EntityConfig.LINK);
 		return locationLinkIri;
 	}
 
 	public IRI getLocationCountryIri(ValueFactory vf) {
-		locationCountryIri = vf.createIRI(EntityConfig.COUNTRY, EntityConfig.IN_COUNTRY);
+		locationCountryIri = vf.createIRI(EntityConfig.COUNTRY_NAMESPACE, EntityConfig.IN_COUNTRY);
 		return locationCountryIri;
 	}
 
 	public IRI getOrganizationNameIri(ValueFactory vf) {
-		organizationNameIri = vf.createIRI(EntityConfig.LOCATION, EntityConfig.LABEL);
+		organizationNameIri = vf.createIRI(EntityConfig.LOCATION_NAMESPACE, EntityConfig.LABEL);
 		return organizationNameIri;
 	}
 
 	public IRI getOrganizationDescriptionIri(ValueFactory vf) {
-		organizationDescriptionIri = vf.createIRI(EntityConfig.LOCATION, EntityConfig.DESCRIPTION);
+		organizationDescriptionIri = vf.createIRI(EntityConfig.LOCATION_NAMESPACE, EntityConfig.DESCRIPTION);
 		return organizationDescriptionIri;
 	}
 
 	public IRI getOrganizationDateIri(ValueFactory vf) {
-		organizationDateIri = vf.createIRI(EntityConfig.LOCATION, EntityConfig.DATE);
+		organizationDateIri = vf.createIRI(EntityConfig.LOCATION_NAMESPACE, EntityConfig.DATE);
 		return organizationDateIri;
 	}
 
 	public IRI getOrganizationLinkIri(ValueFactory vf) {
-		organizationLinkIri = vf.createIRI(EntityConfig.LOCATION, EntityConfig.LINK);
+		organizationLinkIri = vf.createIRI(EntityConfig.LOCATION_NAMESPACE, EntityConfig.LINK);
 		return organizationLinkIri;
 	}
 
 	public IRI getOrganizationHeadquarterIri(ValueFactory vf) {
-		organizationHeadquarterIri = vf.createIRI(EntityConfig.LOCATION, EntityConfig.HEADQUARTER);
+		organizationHeadquarterIri = vf.createIRI(EntityConfig.LOCATION_NAMESPACE, EntityConfig.HEADQUARTER);
 		return organizationHeadquarterIri;
 	}
 
 	public IRI getPersonNameIri(ValueFactory vf) {
-		personNameIri = vf.createIRI(EntityConfig.PERSON, EntityConfig.LABEL);
+		personNameIri = vf.createIRI(EntityConfig.PERSON_NAMESPACE, EntityConfig.LABEL);
 		return personNameIri;
 	}
 
 	public IRI getPersonDescriptionIri(ValueFactory vf) {
-		personDescriptionIri = vf.createIRI(EntityConfig.PERSON, EntityConfig.DESCRIPTION);
+		personDescriptionIri = vf.createIRI(EntityConfig.PERSON_NAMESPACE, EntityConfig.DESCRIPTION);
 
 		return personDescriptionIri;
 	}
 
 	public IRI getPersonDateIri(ValueFactory vf) {
-		personDateIri = vf.createIRI(EntityConfig.PERSON, EntityConfig.DATE);
+		personDateIri = vf.createIRI(EntityConfig.PERSON_NAMESPACE, EntityConfig.DATE);
 		return personDateIri;
 	}
 
 	public IRI getPersonLinkIri(ValueFactory vf) {
-		personLinkIri = vf.createIRI(EntityConfig.PERSON, EntityConfig.LINK);
+		personLinkIri = vf.createIRI(EntityConfig.PERSON_NAMESPACE, EntityConfig.LINK);
 		return personLinkIri;
 	}
 
 	public IRI getPersonJobIri(ValueFactory vf) {
-		personJobIri = vf.createIRI(EntityConfig.PERSON, EntityConfig.JOB);
+		personJobIri = vf.createIRI(EntityConfig.PERSON_NAMESPACE, EntityConfig.JOB);
 		return personJobIri;
 	}
 
 	public IRI getTimeNameIri(ValueFactory vf) {
-		timeNameIri = vf.createIRI(EntityConfig.TIME, EntityConfig.LABEL);
+		timeNameIri = vf.createIRI(EntityConfig.TIME_NAMESPACE, EntityConfig.LABEL);
 		return timeNameIri;
 	}
 
 	public IRI getTimeDescriptionIri(ValueFactory vf) {
-		timeDescriptionIri = vf.createIRI(EntityConfig.TIME, EntityConfig.DESCRIPTION);
+		timeDescriptionIri = vf.createIRI(EntityConfig.TIME_NAMESPACE, EntityConfig.DESCRIPTION);
 		return timeDescriptionIri;
 	}
 
 	public IRI getTimeDateIri(ValueFactory vf) {
-		timeDateIri = vf.createIRI(EntityConfig.TIME, EntityConfig.DATE);
+		timeDateIri = vf.createIRI(EntityConfig.TIME_NAMESPACE, EntityConfig.DATE);
 		return timeDateIri;
 	}
 
 	public IRI getTimeLinkIri(ValueFactory vf) {
-		timeLinkIri = vf.createIRI(EntityConfig.TIME, EntityConfig.LINK);
+		timeLinkIri = vf.createIRI(EntityConfig.TIME_NAMESPACE, EntityConfig.LINK);
 		return timeLinkIri;
 	}
 	

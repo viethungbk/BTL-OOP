@@ -18,12 +18,15 @@ public class EntityConfig {
 	public static final String TIME_LINK = "https://hust.edu.vn/time/";
 
 	// Prefix Namespace cho các thực thể
-	public static final String COUNTRY = "http://hust.btl.namespace/country/";
-	public static final String EVENT = "http://hust.btl.namespace/event/";
-	public static final String LOCATION = "http://hust.btl.namespace/location/";
-	public static final String ORGANIZATION = "http://hust.btl.namespace/organization/";
-	public static final String PERSON = "http://hust.btl.namespace/person/";
-	public static final String TIME = "http://hust.btl.namespace/time/";
+	public static final String COUNTRY_NAMESPACE = "http://hust.btl.namespace/country/";
+	public static final String EVENT_NAMESPACE = "http://hust.btl.namespace/event/";
+	public static final String LOCATION_NAMESPACE = "http://hust.btl.namespace/location/";
+	public static final String ORGANIZATION_NAMESPACE = "http://hust.btl.namespace/organization/";
+	public static final String PERSON_NAMESPACE = "http://hust.btl.namespace/person/";
+	public static final String TIME_NAMESPACE = "http://hust.btl.namespace/time/";
+	
+	// Prefix Namespace cho quan hệ
+	public static final String RELATIONSHIP_NAMESPACE = "http://hust.btl.namespace/relationship/";
 
 	// Các thuộc tính của thực thể
 	public static final String LABEL = "has_label";

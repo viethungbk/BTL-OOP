@@ -11,6 +11,7 @@ import entities.Event;
 import entities.Location;
 import entities.Organization;
 import entities.Person;
+import entities.Time;
 
 public class StoreData {
 
@@ -30,10 +31,10 @@ public class StoreData {
 	 * @return IRI của id person vừa tạo
 	 */
 	public IRI addToModel(Person person, ValueFactory vf, Model model) {
-		IRI idIri = vf.createIRI(EntityConfig.PERSON, person.getId());
+		IRI idIri = vf.createIRI(EntityConfig.PERSON_NAMESPACE, person.getId());
 
 		CreateIri createIri = new CreateIri();
-
+		
 		model.add(idIri, createIri.getPersonNameIri(vf), vf.createLiteral(person.getName()));
 		model.add(idIri, createIri.getPersonDescriptionIri(vf), vf.createLiteral(person.getDescription()));
 		model.add(idIri, createIri.getPersonDateIri(vf), vf.createLiteral(person.getDate().toString()));
@@ -55,7 +56,7 @@ public class StoreData {
 	 * @return IRI của id Country vừa tạo
 	 */
 	public IRI addToModel(Country country, ValueFactory vf, Model model) {
-		IRI idIri = vf.createIRI(EntityConfig.COUNTRY, country.getId());
+		IRI idIri = vf.createIRI(EntityConfig.COUNTRY_NAMESPACE, country.getId());
 
 		CreateIri createIri = new CreateIri();
 
@@ -79,7 +80,7 @@ public class StoreData {
 	 * @return IRI của id Event vừa tạo
 	 */
 	public IRI addToModel(Event event, ValueFactory vf, Model model) {
-		IRI idIri = vf.createIRI(EntityConfig.EVENT, event.getId());
+		IRI idIri = vf.createIRI(EntityConfig.EVENT_NAMESPACE, event.getId());
 
 		CreateIri createIri = new CreateIri();
 
@@ -103,7 +104,7 @@ public class StoreData {
 	 * @return IRI của id Location vừa tạo
 	 */
 	public IRI addToModel(Location location, ValueFactory vf, Model model) {
-		IRI idIri = vf.createIRI(EntityConfig.EVENT, location.getId());
+		IRI idIri = vf.createIRI(EntityConfig.EVENT_NAMESPACE, location.getId());
 
 		CreateIri createIri = new CreateIri();
 
@@ -125,10 +126,10 @@ public class StoreData {
 	 *            ValueFactory để tạo triples.
 	 * @param model
 	 *            Lưu trữ các triple.
-	 * @return IRI của id Organization vừa tạo
+	 * @return IRI của id Organization vừa tạo.
 	 */
 	public IRI addToModel(Organization organization, ValueFactory vf, Model model) {
-		IRI idIri = vf.createIRI(EntityConfig.EVENT, organization.getId());
+		IRI idIri = vf.createIRI(EntityConfig.EVENT_NAMESPACE, organization.getId());
 
 		CreateIri createIri = new CreateIri();
 
@@ -137,6 +138,30 @@ public class StoreData {
 		model.add(idIri, createIri.getOrganizationDateIri(vf), vf.createLiteral(organization.getDate().toString()));
 		model.add(idIri, createIri.getOrganizationLinkIri(vf), vf.createLiteral(organization.getLink()));
 		model.add(idIri, createIri.getOrganizationHeadquarterIri(vf), vf.createLiteral(organization.getHeadquarter()));
+
+		return idIri;
+	}
+
+	/**
+	 * Lưu trữ đối tượng Time vào Model để chuẩn bị thêm vào database.
+	 * 
+	 * @param time
+	 *            Đối tượng Time muốn lưu trữ.
+	 * @param vf
+	 *            ValueFactory để tạo triples.
+	 * @param model
+	 *            Lưu trữ các triple.
+	 * @returnIRI của id Time vừa tạo.
+	 */
+	public IRI addToModel(Time time, ValueFactory vf, Model model) {
+		IRI idIri = vf.createIRI(EntityConfig.EVENT_NAMESPACE, time.getId());
+
+		CreateIri createIri = new CreateIri();
+
+		model.add(idIri, createIri.getTimeNameIri(vf), vf.createLiteral(time.getName()));
+		model.add(idIri, createIri.getTimeDescriptionIri(vf), vf.createLiteral(time.getDescription()));
+		model.add(idIri, createIri.getTimeDateIri(vf), vf.createLiteral(time.getDate().toString()));
+		model.add(idIri, createIri.getTimeLinkIri(vf), vf.createLiteral(time.getLink()));
 
 		return idIri;
 	}

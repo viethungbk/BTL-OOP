@@ -35,8 +35,9 @@ public class FileConfig {
 	public static final String FILE_PERSON_JOB = PROJECT_PATH + "/rawdata-test/person/PersonJob.txt";
 	public static final String FILE_PERSON_DATE = PROJECT_PATH + "/rawdata-test/person/PersonDate.txt";
 
-	public static final String FILE_TIME = PROJECT_PATH + "/rawdata-test/time/DateTime.txt";
+	public static final String FILE_TIME_LABEL = PROJECT_PATH + "/rawdata-test/time/TimeLabel.txt";
 	public static final String FILE_TIME_DESCRIPTION = PROJECT_PATH + "/rawdata-test/time/TimeDescription.txt";
+	public static final String FILE_TIME_DATE = PROJECT_PATH + "/rawdata-test/time/TimeDate.txt";
 
 	public static final String FILE_RELATIONSHIP_COUNTRY_EVENT = PROJECT_PATH
 			+ "/rawdata-test/relationship/Country_Event.txt";

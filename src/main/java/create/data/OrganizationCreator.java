@@ -83,9 +83,9 @@ public class OrganizationCreator {
 	 *            Số lượng Organization muốn tạo.
 	 * @param conn:
 	 *            kết nối đến repository của GraphDB.
-	 * @return : list các IRI Id của Organization đã thêm vào GraphDB
+	 * @return : list các IRI Id của Organization đã thêm vào Database.
 	 */
-	public ArrayList<IRI> createEvent(int numberOrganization, RepositoryConnection conn) {
+	public ArrayList<IRI> createOrganization(int numberOrganization, RepositoryConnection conn) {
 		ValueFactory vf = conn.getValueFactory();
 		StoreData storeData = new StoreData();
 		ArrayList<IRI> listOrganizationIri = new ArrayList<IRI>();
@@ -94,8 +94,8 @@ public class OrganizationCreator {
 		for (int i = 1; i <= numberOrganization; i++) {
 			Organization organization = randomOrganzation(i);
 
-			IRI locationIri = storeData.addToModel(organization, vf, model);
-			listOrganizationIri.add(locationIri);
+			IRI organizationIri = storeData.addToModel(organization, vf, model);
+			listOrganizationIri.add(organizationIri);
 
 			if (i % 10000 == 0) {
 				try {
