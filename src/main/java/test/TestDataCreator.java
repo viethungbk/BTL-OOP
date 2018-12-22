@@ -34,7 +34,7 @@ public class TestDataCreator {
 		
 		start = System.currentTimeMillis();
 		
-		//relationshipCreator.createRelationship(100000, countryIri, evenIri, TypeRelationship.RE_COUNTRY_EVENT, conn);
+		relationshipCreator.createRelationship(100000, countryIri, evenIri, TypeRelationship.RE_COUNTRY_EVENT, conn);
 		
 		end = System.currentTimeMillis();
 		
