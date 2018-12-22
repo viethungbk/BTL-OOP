@@ -23,22 +23,12 @@ public class TestDataCreator {
 	public static void main(String[] args) {
 		long start, end;
 		RepositoryConnection conn = DatabaseConnector.getConnection();
-//		 start = System.currentTimeMillis();
-		
-		CountryCreator countryCreator = new CountryCreator();
-		EventCreator eventCreator = new EventCreator();
-		RelationshipCreator relationshipCreator = new RelationshipCreator();
-		
-		ArrayList<IRI> countryIri = countryCreator.createCountry(10000, conn);
-		ArrayList<IRI> evenIri = eventCreator.createEvent(10000, conn);
-		
-		start = System.currentTimeMillis();
-		
-		relationshipCreator.createRelationship(100000, countryIri, evenIri, TypeRelationship.RE_COUNTRY_EVENT, conn);
+		 start = System.currentTimeMillis();
+
+		DataCreator dataCreator = new DataCreator();
+		dataCreator.createData(1000000, 100000);
 		
 		end = System.currentTimeMillis();
-		
-		System.out.println(countryIri.get(4));
 		
 		System.out.println("Thời gian: " + (end - start) + " ms");
 	}

@@ -5,10 +5,8 @@ import java.util.Random;
 
 import org.eclipse.rdf4j.model.IRI;
 import org.eclipse.rdf4j.model.Model;
-import org.eclipse.rdf4j.model.Statement;
 import org.eclipse.rdf4j.model.ValueFactory;
 import org.eclipse.rdf4j.model.impl.TreeModel;
-import org.eclipse.rdf4j.model.util.ModelBuilder;
 import org.eclipse.rdf4j.repository.RepositoryConnection;
 
 import config.EntityConfig;
@@ -104,23 +102,31 @@ public class RelationshipCreator {
 		
 		int count = 1;
 		
+		IRI en1;
+		IRI en2;
+		IRI rela;
+		
 		for (int i = 0; i < numberRela; i++) {
-			model.add(listEntity1Iri.get(i), listRelationshipIRI.get(i), listEntity2Iri.get(i));
+			en1 = listEntity1Iri.get(i);
+			en2 = listRelationshipIRI.get(i);
+			rela = listEntity2Iri.get(i);
+			
+			model.add(en1, rela, en2);
 			
 			if (i % 1000 == 0) {
-				
+				//long start = System.currentTimeMillis();
 				conn.add(model);
 				model.clear();
-				model = new TreeModel();
-	
-				System.out.println("Thêm 10000 Rela lần " + count);
+				//long end = System.currentTimeMillis();
+				System.out.println("Thêm 1000 Rela lần " + count);
 				count++;
+				//System.out.println("Thoi gian " + (end - start));
+				//return;
 			}
 		}
 		
 		conn.add(model);
 		model.clear();
-		
 		
 		System.out.println("Đã thêm quan hệ vào cơ sở dữ liệu");
 	}
