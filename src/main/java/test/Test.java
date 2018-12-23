@@ -40,7 +40,6 @@ public class Test {
 		String queryString = "prefix :<http://hung.test/>\n" 		// use database
 				+ "select ?p ?o\n"									// lay p va o
 				+ "where{\n"
-				//+ "?p ?o :Duc"
 				+ ":Person ?p ?o\n"
 				+ "}";
 		TupleQuery query = conn.prepareTupleQuery(queryString);
